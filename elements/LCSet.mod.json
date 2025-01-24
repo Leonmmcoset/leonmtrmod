@@ -1,0 +1,10 @@
+{
+  "_fv": 57,
+  "_type": "command",
+  "definition": {
+    "commandName": "lcpay",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"268\" y=\"45\"><next><block type=\"entity\"><field name=\"name\">player</field><field name=\"type\">player</field><statement name=\"args\"><block type=\"number_default\"><field name=\"name\">number</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">LCSetRun1</field></block></statement><next><block type=\"call_procedure\"><field name=\"procedure\">LCSetRun2</field><comment pinned=\"false\" h=\"83\" w=\"199\">If the executed command does not have follow one of the previous path, we execute this procedure.</comment></block></next></block></statement></block></next></block></xml>"
+  }
+}

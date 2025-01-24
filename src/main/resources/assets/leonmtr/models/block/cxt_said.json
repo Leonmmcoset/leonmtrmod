@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leonmtr:block/cxt",
+    "up": "leonmtr:block/cxt",
+    "north": "leonmtr:block/cxt",
+    "east": "leonmtr:block/cxt",
+    "south": "leonmtr:block/cxt",
+    "west": "leonmtr:block/cxt",
+    "particle": "leonmtr:block/cxt"
+  },
+  "render_type": "solid"
+}

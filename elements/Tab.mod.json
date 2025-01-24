@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Leon轨道交通方块和物品",
+    "icon": {
+      "value": "CUSTOM:CxtSaid"
+    },
+    "showSearch": false
+  }
+}

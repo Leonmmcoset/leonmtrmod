@@ -1,0 +1,128 @@
+{
+  "mod_elements": [
+    {
+      "name": "CxtSaidYouJiFangKuaiShi",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cxt_said_you_ji_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/CxtSaidYouJiFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CxtSaid",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cxt_said",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/block/CxtSaidBlock.java",
+          "src/main/resources/assets/leonmtr/models/item/cxt_said.json",
+          "src/main/resources/assets/leonmtr/blockstates/cxt_said.json",
+          "src/main/resources/assets/leonmtr/models/block/cxt_said.json"
+        ]
+      }
+    },
+    {
+      "name": "Tab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LCGetRun",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_get_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCGetRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCGet",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_get",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCGetCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCSetRun1",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_set_run_1",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure.java"
+        ],
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.leonmtr.cxt_said": "CXT名言大赏",
+      "item_group.leonmtr.tab": "Leon轨道交通方块和物品"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "leonmtr",
+    "modName": "Leon轨道交通Mod",
+    "version": "1.0.1",
+    "description": "禁止盗用",
+    "author": "LeonMMcoset",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "ink.jjmm.leonmmcoset.leonmtr",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
