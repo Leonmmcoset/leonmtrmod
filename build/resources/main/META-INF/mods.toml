@@ -1,15 +1,15 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="All Rights Reserved"
+license="MIT License"
 
 [[mods]]
 modId="leonmtr"
-version="1.0.2"
+version="1.0.3"
 displayName="Leon轨道交通Mod"
-displayURL="https://mcreator.net"
+displayURL="https://modrinth.com/mod/leonmtrmod"
 credits="感谢永盛服主林枫酱和云山服主Spentwing！"
 authors="LeonMMcoset"
-description="禁止盗用，此Mod由LeonMMcoset自身研发。"
+description="已开源，可更改。"
 
 [[dependencies.leonmtr]]
     modId="minecraft"

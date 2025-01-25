@@ -175,6 +175,7 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   ink/jjmm/leonmmcoset/leonmtr/block/
   ink/jjmm/leonmmcoset/leonmtr/block/CxtSaidBlock.class
   ink/jjmm/leonmmcoset/leonmtr/command/
+  ink/jjmm/leonmmcoset/leonmtr/command/LCAddCommand.class
   ink/jjmm/leonmmcoset/leonmtr/command/LCGetCommand.class
   ink/jjmm/leonmmcoset/leonmtr/command/LCPunishCommand.class
   ink/jjmm/leonmmcoset/leonmtr/command/LCSetCommand.class
@@ -184,6 +185,11 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModTabs.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/
   ink/jjmm/leonmmcoset/leonmtr/procedures/CxtSaidYouJiFangKuaiShiProcedure.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/LCAddRunProcedure$1.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/LCAddRunProcedure$2.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/LCAddRunProcedure$3.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/LCAddRunProcedure$4.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/LCAddRunProcedure.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCGetRunProcedure$1.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCGetRunProcedure.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCPunishRunProcedure$1.class

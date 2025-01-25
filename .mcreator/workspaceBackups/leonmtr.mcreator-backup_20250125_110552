@@ -89,7 +89,16 @@
         "files": [
           "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure.java"
         ],
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     },
     {
@@ -102,6 +111,75 @@
       "metadata": {
         "files": [
           "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCSetCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCSetRun2",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_set_run_2",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModStartServer",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_start_server",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ModStartServerProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LCPunishRun",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_punish_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCPunishRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCPunish",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_punish",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCPunishCommand.java"
         ]
       }
     }
@@ -121,10 +199,10 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.1",
-    "description": "禁止盗用",
+    "version": "1.0.2",
+    "description": "禁止盗用，此Mod由LeonMMcoset自身研发。",
     "author": "LeonMMcoset",
-    "websiteURL": "https://mcreator.net",
+    "websiteURL": "无",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
@@ -133,7 +211,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "感谢永盛服主林枫酱和云山服主Spentwing！",
     "modElementsPackage": "ink.jjmm.leonmmcoset.leonmtr",
     "lockBaseModFiles": false
   },
