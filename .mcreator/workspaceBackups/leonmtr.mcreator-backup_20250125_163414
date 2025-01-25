@@ -146,6 +146,114 @@
         ],
         "dependencies": []
       }
+    },
+    {
+      "name": "LCPunishRun",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_punish_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCPunishRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCPunish",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_punish",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCPunishCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCAddRun",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_add_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCAddRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCAdd",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_add",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCAddCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCSeeRun",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_see_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSeeRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCSee",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_see",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCSeeCommand.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -163,11 +271,11 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.1",
-    "description": "禁止盗用",
+    "version": "1.0.4",
+    "description": "已开源，可更改。",
     "author": "LeonMMcoset",
-    "websiteURL": "https://mcreator.net",
-    "license": "All Rights Reserved",
+    "websiteURL": "https://modrinth.com/mod/leonmtrmod",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
@@ -175,7 +283,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "感谢永盛服主林枫酱和云山服主Spentwing！",
     "modElementsPackage": "ink.jjmm.leonmmcoset.leonmtr",
     "lockBaseModFiles": false
   },

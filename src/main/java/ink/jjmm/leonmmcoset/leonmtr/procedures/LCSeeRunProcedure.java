@@ -8,6 +8,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.commands.CommandSourceStack;
 
+import ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod;
+
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.context.CommandContext;
 
@@ -43,5 +45,32 @@ public class LCSeeRunProcedure {
 					}
 				}
 			}.getEntity()))) + "L\u5E01\u3002")), false);
+		LeonmtrMod.LOGGER.info(("\u73A9\u5BB6" + new Object() {
+			public Entity getEntity() {
+				try {
+					return EntityArgument.getEntity(arguments, "player");
+				} catch (CommandSyntaxException e) {
+					e.printStackTrace();
+					return null;
+				}
+			}
+		}.getEntity() + "\u62E5\u6709" + (new Object() {
+			public int getScore(String score, Entity _ent) {
+				Scoreboard _sc = _ent.level().getScoreboard();
+				Objective _so = _sc.getObjective(score);
+				if (_so != null)
+					return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
+				return 0;
+			}
+		}.getScore("mtr_balance", (new Object() {
+			public Entity getEntity() {
+				try {
+					return EntityArgument.getEntity(arguments, "player");
+				} catch (CommandSyntaxException e) {
+					e.printStackTrace();
+					return null;
+				}
+			}
+		}.getEntity()))) + "L\u5E01\u3002"));
 	}
 }
