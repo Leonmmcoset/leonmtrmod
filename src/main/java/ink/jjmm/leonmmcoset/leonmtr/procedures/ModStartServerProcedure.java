@@ -22,6 +22,8 @@ public class ModStartServerProcedure {
 	}
 
 	private static void execute(@Nullable Event event) {
+		LeonmtrMod.LOGGER.info("---Leon\u8F68\u9053\u4EA4\u901AMod---");
+		LeonmtrMod.LOGGER.info("\u4F5C\u8005\uFF1ALeonMMcoset");
 		LeonmtrMod.LOGGER.info("Leon\u8F68\u9053\u4EA4\u901AMod\u52A0\u8F7D\u6210\u529F\uFF01");
 	}
 }

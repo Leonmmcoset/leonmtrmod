@@ -113,7 +113,7 @@ public class LCSetRun1Procedure {
 			}.getEntity() + " " + DoubleArgumentType.getDouble(arguments, "number") + "L\u5E01\u3002"));
 		} else {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("\u54CE\u5440\uFF0C\u522B\u60F3\u73A9\u8FD9\u4E2ABug\u4E86\uFF0C\u9694\u58C1\u732B\u8DC3\u7684\u8FD9\u4E2ABug\u8FD8\u662F\u6211\u53D1\u73B0\u7684\u5462\uFF01"), false);
+				_player.displayClientMessage(Component.literal("\u54CE\u5440\uFF0C\u522B\u60F3\u73A9\u8FD9\u4E2ABug\u4E86\uFF01\uFF08\u4EBA\u8BDD\uFF1A\u8BF7\u8F93\u5165\u6B63\u6570\uFF09"), false);
 		}
 	}
 }

@@ -76,6 +76,6 @@ public class LCPunishRunProcedure {
 					return null;
 				}
 			}
-		}.getEntity() + "\u4F60\u8FDD\u53CD\u4E86\u89C4\u5219\u88AB\u6263\u9664" + DoubleArgumentType.getDouble(arguments, "number") + "L\u5E01\uFF0C\u6267\u884C\u8005\uFF1A" + entity + "\u3002"));
+		}.getEntity() + "\u8FDD\u53CD\u4E86\u89C4\u5219\u88AB\u6263\u9664" + DoubleArgumentType.getDouble(arguments, "number") + "L\u5E01\uFF0C\u6267\u884C\u8005\uFF1A" + entity + "\u3002"));
 	}
 }
