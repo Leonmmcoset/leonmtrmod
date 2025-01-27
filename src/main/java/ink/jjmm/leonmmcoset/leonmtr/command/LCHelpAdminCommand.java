@@ -32,7 +32,7 @@ public class LCHelpAdminCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			LCHelpAdminRunProcedure.execute(entity);
+			LCHelpAdminRunProcedure.execute(world, entity);
 			return 0;
 		}));
 	}

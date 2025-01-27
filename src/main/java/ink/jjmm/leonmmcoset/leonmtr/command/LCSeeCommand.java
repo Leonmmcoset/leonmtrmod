@@ -33,7 +33,7 @@ public class LCSeeCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			LCSeeRunProcedure.execute(arguments, entity);
+			LCSeeRunProcedure.execute(world, arguments, entity);
 			return 0;
 		})));
 	}

@@ -34,28 +34,20 @@ public class LCSetPlayerRunProcedure {
 			Objective _so = _sc.getObjective("mtr_balance");
 			if (_so == null)
 				_so = _sc.addObjective("mtr_balance", ObjectiveCriteria.DUMMY, Component.literal("mtr_balance"), ObjectiveCriteria.RenderType.INTEGER);
-			_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore((int) (new Object() {
-				public int getScore(String score, Entity _ent) {
-					Scoreboard _sc = _ent.level().getScoreboard();
-					Objective _so = _sc.getObjective(score);
-					if (_so != null)
-						return _sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).getScore();
-					return 0;
-				}
-			}.getScore("mtr_balance", (new Object() {
-				public Entity getEntity() {
-					try {
-						return EntityArgument.getEntity(arguments, "player");
-					} catch (CommandSyntaxException e) {
-						e.printStackTrace();
-						return null;
-					}
-				}
-			}.getEntity())) + DoubleArgumentType.getDouble(arguments, "number")));
+			_sc.getOrCreatePlayerScore(_ent.getScoreboardName(), _so).setScore((int) DoubleArgumentType.getDouble(arguments, "number"));
 		}
 		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal("\u66F4\u6539\u6210\u529F\uFF01"), false);
-		if (entity instanceof Player _player && !_player.level().isClientSide())
+		if ((new Object() {
+			public Entity getEntity() {
+				try {
+					return EntityArgument.getEntity(arguments, "player");
+				} catch (CommandSyntaxException e) {
+					e.printStackTrace();
+					return null;
+				}
+			}
+		}.getEntity()) instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(("\u6700\u9AD8\u6743\u9650\u73A9\u5BB6\u66F4\u6539\u4E86\u4F60\u7684\u94B1\u6570\u4E3A" + DoubleArgumentType.getDouble(arguments, "number") + "\u3002")), false);
 		LeonmtrMod.LOGGER.info((entity + "\u66F4\u6539\u4E86" + new Object() {
 			public Entity getEntity() {

@@ -2,14 +2,18 @@ package ink.jjmm.leonmmcoset.leonmtr.procedures;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.phys.Vec2;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.sounds.SoundSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.MessageArgument;
 import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
 
 import ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod;
 
@@ -27,6 +31,20 @@ public class ServerStopRunProcedure {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.land")), SoundSource.VOICE, 5, 1, false);
 					}
 				}
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							"title @a title \u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\uFF01\uFF01\"");
+				if (world instanceof ServerLevel _level)
+					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+							("title @a subtitle \"\u539F\u56E0\uFF1A" + "" + (new Object() {
+								public String getMessage() {
+									try {
+										return MessageArgument.getMessage(arguments, "reason").getString();
+									} catch (CommandSyntaxException ignored) {
+										return "";
+									}
+								}
+							}).getMessage() + "\""));
 				if (!world.isClientSide() && world.getServer() != null)
 					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("\u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\u539F\u56E0\uFF1A" + (new Object() {
 						public String getMessage() {

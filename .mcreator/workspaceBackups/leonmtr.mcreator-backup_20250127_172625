@@ -61,6 +61,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -354,9 +358,64 @@
           "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCSetPlayerCommand.java"
         ]
       }
+    },
+    {
+      "name": "ServerStopRun",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_stop_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ServerStopRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ServerStop",
+      "type": "command",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_stop",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/ServerStopCommand.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "name",
+      "type": "string",
+      "scope": "world",
+      "value": "\"FCP\""
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -372,7 +431,7 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "已开源，可更改。",
     "author": "LeonMMcoset",
     "websiteURL": "https://modrinth.com/mod/leonmtrmod",

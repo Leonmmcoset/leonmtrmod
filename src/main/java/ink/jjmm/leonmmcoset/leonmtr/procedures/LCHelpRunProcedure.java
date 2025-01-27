@@ -1,15 +1,18 @@
 package ink.jjmm.leonmmcoset.leonmtr.procedures;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
+import ink.jjmm.leonmmcoset.leonmtr.network.LeonmtrModVariables;
+
 public class LCHelpRunProcedure {
-	public static void execute(Entity entity) {
+	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal("---L\u5E01\u547D\u4EE4\u5E2E\u52A9---"), false);
+			_player.displayClientMessage(Component.literal(("---" + LeonmtrModVariables.WorldVariables.get(world).name + "\u547D\u4EE4\u5E2E\u52A9---")), false);
 		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal("\u8BFB\u53D6\u81EA\u5DF1\u7684MTR\u4F59\u989D\u5E76\u663E\u793A\u51FA\u6765\uFF08/lcget\uFF09"), false);
 		if (entity instanceof Player _player && !_player.level().isClientSide())

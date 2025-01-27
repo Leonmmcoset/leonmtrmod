@@ -3,12 +3,14 @@ package ink.jjmm.leonmmcoset.leonmtr.procedures;
 import net.minecraft.world.scores.criteria.ObjectiveCriteria;
 import net.minecraft.world.scores.Scoreboard;
 import net.minecraft.world.scores.Objective;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 import net.minecraft.commands.arguments.EntityArgument;
 import net.minecraft.commands.CommandSourceStack;
 
+import ink.jjmm.leonmmcoset.leonmtr.network.LeonmtrModVariables;
 import ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod;
 
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
@@ -16,7 +18,7 @@ import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.arguments.DoubleArgumentType;
 
 public class LCSetRun1Procedure {
-	public static void execute(CommandContext<CommandSourceStack> arguments, Entity entity) {
+	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments, Entity entity) {
 		if (entity == null)
 			return;
 		if (DoubleArgumentType.getDouble(arguments, "number") > 0) {
@@ -80,7 +82,7 @@ public class LCSetRun1Procedure {
 							return null;
 						}
 					}
-				}.getEntity() + " " + DoubleArgumentType.getDouble(arguments, "number") + "L\u5E01\u3002")), false);
+				}.getEntity() + " " + DoubleArgumentType.getDouble(arguments, "number") + LeonmtrModVariables.WorldVariables.get(world).name + "\u3002")), false);
 			if ((new Object() {
 				public Entity getEntity() {
 					try {
@@ -100,7 +102,7 @@ public class LCSetRun1Procedure {
 							return null;
 						}
 					}
-				}.getEntity() + "\u652F\u4ED8\u7ED9\u4F60" + DoubleArgumentType.getDouble(arguments, "number") + "L\u5E01\u3002")), false);
+				}.getEntity() + "\u652F\u4ED8\u7ED9\u4F60" + DoubleArgumentType.getDouble(arguments, "number") + LeonmtrModVariables.WorldVariables.get(world).name + "\u3002")), false);
 			LeonmtrMod.LOGGER.info((entity + "\u652F\u4ED8\u7ED9" + new Object() {
 				public Entity getEntity() {
 					try {
@@ -110,7 +112,7 @@ public class LCSetRun1Procedure {
 						return null;
 					}
 				}
-			}.getEntity() + " " + DoubleArgumentType.getDouble(arguments, "number") + "L\u5E01\u3002"));
+			}.getEntity() + " " + DoubleArgumentType.getDouble(arguments, "number") + LeonmtrModVariables.WorldVariables.get(world).name + "\u3002"));
 		} else {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal("\u54CE\u5440\uFF0C\u522B\u60F3\u73A9\u8FD9\u4E2ABug\u4E86\uFF01\uFF08\u4EBA\u8BDD\uFF1A\u8BF7\u8F93\u5165\u6B63\u6570\uFF09"), false);

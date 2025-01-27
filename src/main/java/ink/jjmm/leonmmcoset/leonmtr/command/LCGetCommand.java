@@ -32,7 +32,7 @@ public class LCGetCommand {
 					if (entity != null)
 						direction = entity.getDirection();
 
-					LCGetRunProcedure.execute(entity);
+					LCGetRunProcedure.execute(world, entity);
 					return 0;
 				}));
 	}

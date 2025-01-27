@@ -36,7 +36,7 @@ public class LCSetCommand {
 					if (entity != null)
 						direction = entity.getDirection();
 
-					LCSetRun1Procedure.execute(arguments, entity);
+					LCSetRun1Procedure.execute(world, arguments, entity);
 					return 0;
 				})).executes(arguments -> {
 					Level world = arguments.getSource().getUnsidedLevel();

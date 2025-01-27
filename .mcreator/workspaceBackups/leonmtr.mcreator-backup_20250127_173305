@@ -61,6 +61,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -97,6 +101,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -356,29 +364,68 @@
       }
     },
     {
-      "name": "CXTSaidVoiice",
-      "type": "musicdisc",
+      "name": "ServerStopRun",
+      "type": "procedure",
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cxt_said_voiice",
+      "registry_name": "server_stop_run",
       "metadata": {
         "files": [
-          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/item/CXTSaidVoiiceItem.java",
-          "src/main/resources/assets/leonmtr/models/item/cxt_said_voiice.json"
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ServerStopRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ServerStop",
+      "type": "command",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_stop",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/ServerStopCommand.java"
         ]
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "name",
+      "type": "string",
+      "scope": "world",
+      "value": "FCP"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "block.leonmtr.cxt_said": "CXT名言大赏",
-      "item.leonmtr.cxt_said_voiice.desc": "CXT\u0027s Voice - CXT2010",
       "subtitles.cxtvoice": "CXTVoice",
-      "item_group.leonmtr.tab": "Leon轨道交通方块和物品",
-      "item.leonmtr.cxt_said_voiice": "CXT\u0027s voice"
+      "item_group.leonmtr.tab": "Leon轨道交通方块和物品"
     }
   },
   "foldersRoot": {
@@ -388,7 +435,7 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "已开源，可更改。",
     "author": "LeonMMcoset",
     "websiteURL": "https://modrinth.com/mod/leonmtrmod",

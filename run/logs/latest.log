@@ -1,94 +1,123 @@
-[261月2025 12:25:38.118] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\leonm\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[261月2025 12:25:38.123] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[261月2025 12:25:38.294] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[261月2025 12:25:38.382] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[261月2025 12:25:38.856] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[261月2025 12:25:38.973] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon 780M Graphics GL version 4.6.0 Core Profile Context 24.6.1.240619, ATI Technologies Inc.
-[261月2025 12:25:38.975] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/leonm/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[261月2025 12:25:39.327] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[261月2025 12:25:39.332] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[261月2025 12:25:39.337] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[261月2025 12:25:39.341] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[261月2025 12:25:39.420] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[261月2025 12:25:40.939] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\leonm\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[261月2025 12:25:42.618] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
-[261月2025 12:25:45.528] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 154 milliseconds
-[261月2025 12:25:47.276] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[261月2025 12:25:47.276] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[261月2025 12:25:47.318] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[261月2025 12:25:47.332] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[261月2025 12:25:47.464] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[261月2025 12:25:47.742] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[261月2025 12:25:47.744] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[261月2025 12:25:48.728] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[261月2025 12:25:48.899] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[261月2025 12:25:49.113] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[261月2025 12:25:49.178] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[261月2025 12:25:50.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[261月2025 12:25:51.766] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[261月2025 12:25:51.766] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[261月2025 12:25:51.808] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 2 - G272Q (AMD High Definition Audio Device)
-[261月2025 12:25:51.809] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[261月2025 12:25:51.906] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
-[261月2025 12:25:51.913] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
-[261月2025 12:25:51.915] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
-[261月2025 12:25:51.915] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
-[261月2025 12:25:51.915] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
-[261月2025 12:25:51.922] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
-[261月2025 12:25:51.922] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
-[261月2025 12:25:51.922] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
-[261月2025 12:25:51.922] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
-[261月2025 12:25:52.161] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[261月2025 12:25:52.211] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[261月2025 12:25:52.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[261月2025 12:25:52.213] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[261月2025 12:25:52.671] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[261月2025 12:26:16.938] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[261月2025 12:26:18.618] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[261月2025 12:26:18.724] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[261月2025 12:26:19.092] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[261月2025 12:26:19.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[261月2025 12:26:19.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[261月2025 12:26:21.903] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[261月2025 12:26:21.924] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[261月2025 12:26:21.924] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[261月2025 12:26:21.924] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[261月2025 12:26:22.008] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
-[261月2025 12:26:22.510] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：48%
-[261月2025 12:26:22.745] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[261月2025 12:26:22.756] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2755 ms
-[261月2025 12:26:22.881] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
-[261月2025 12:26:22.883] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[261月2025 12:26:22.983] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[261月2025 12:26:24.014] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[261月2025 12:26:24.074] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:7da44b8f] logged in with entity id 183 at (-4.648815607208775, 63.0, 57.972460212854216)
-[261月2025 12:26:24.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
-[261月2025 12:26:24.618] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
-[261月2025 12:26:31.962] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 报告完成。
-[261月2025 12:26:32.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.959] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.960] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.960] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.961] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.968] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:32.969] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：Hello。
-[261月2025 12:26:50.446] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[261月2025 12:26:50.490] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[261月2025 12:26:50.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[261月2025 12:26:50.518] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[261月2025 12:26:54.261] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
-[261月2025 12:26:54.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
-[261月2025 12:26:54.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[261月2025 12:26:54.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[261月2025 12:26:54.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[261月2025 12:26:54.306] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[261月2025 12:26:55.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
-[261月2025 12:26:55.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
-[261月2025 12:26:55.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
-[261月2025 12:26:55.611] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新的世界): All chunks are saved
-[261月2025 12:26:55.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[261月2025 12:26:55.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[261月2025 12:26:55.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[261月2025 12:26:56.619] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[271月2025 17:47:38.136] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\leonm\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[271月2025 17:47:38.143] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.9 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[271月2025 17:47:38.326] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[271月2025 17:47:38.453] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[271月2025 17:47:39.149] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[271月2025 17:47:39.310] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/leonm/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[271月2025 17:47:39.331] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon 780M Graphics GL version 4.6.0 Core Profile Context 24.6.1.240619, ATI Technologies Inc.
+[271月2025 17:47:39.698] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.0\7f9181f85acc66547685a72020713fc8cbde98\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[271月2025 17:47:39.702] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.0\7872f5205685fdd26fae39b1be79b0e60ca5b7bd\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[271月2025 17:47:39.707] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.0\d501d161cabed08b3c139a2c6217b02a39f3c3e9\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[271月2025 17:47:39.711] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.0\ffd3c6debac0a388c9e33ac43c9f5eafb91cb466\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[271月2025 17:47:39.841] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[271月2025 17:47:41.395] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\leonm\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[271月2025 17:47:44.257] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[271月2025 17:47:47.173] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 174 milliseconds
+[271月2025 17:47:48.901] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[271月2025 17:47:48.901] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[271月2025 17:47:48.930] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[271月2025 17:47:48.943] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[271月2025 17:47:49.131] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[271月2025 17:47:49.463] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[271月2025 17:47:49.467] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[271月2025 17:47:50.522] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[271月2025 17:47:50.683] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[271月2025 17:47:50.856] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[271月2025 17:47:50.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[271月2025 17:47:51.772] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[271月2025 17:47:53.194] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[271月2025 17:47:53.195] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[271月2025 17:47:53.262] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 2 - G272Q (AMD High Definition Audio Device)
+[271月2025 17:47:53.262] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[271月2025 17:47:53.351] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[271月2025 17:47:53.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[271月2025 17:47:53.360] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[271月2025 17:47:53.361] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[271月2025 17:47:53.361] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[271月2025 17:47:53.367] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[271月2025 17:47:53.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[271月2025 17:47:53.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[271月2025 17:47:53.368] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[271月2025 17:47:53.644] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[271月2025 17:47:53.707] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[271月2025 17:47:53.709] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[271月2025 17:47:53.709] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[271月2025 17:47:54.170] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[271月2025 17:48:54.687] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[271月2025 17:48:56.577] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[271月2025 17:48:56.656] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[271月2025 17:48:56.974] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[271月2025 17:48:56.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[271月2025 17:48:57.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[271月2025 17:48:59.660] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[271月2025 17:48:59.681] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[271月2025 17:48:59.681] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[271月2025 17:48:59.681] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[271月2025 17:49:00.001] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：0%
+[271月2025 17:49:00.494] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: 准备生成区域中：10%
+[271月2025 17:49:00.889] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[271月2025 17:49:00.889] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2908 ms
+[271月2025 17:49:01.112] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[271月2025 17:49:01.113] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[271月2025 17:49:01.255] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[271月2025 17:49:01.807] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[271月2025 17:49:01.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:82749d52] logged in with entity id 164 at (39.722592721510544, 70.0, 50.94264806119986)
+[271月2025 17:49:01.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev加入了游戏
+[271月2025 17:49:02.422] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3 advancements
+[271月2025 17:49:19.845] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 您的FCP余额是：0。
+[271月2025 17:49:23.621] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ---FCP命令帮助---
+[271月2025 17:49:23.621] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 读取自己的MTR余额并显示出来（/lcget）
+[271月2025 17:49:23.622] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 将自己的余额支付给其他人（/lcpay <支付给哪个玩家> <多少钱>）
+[271月2025 17:49:23.624] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 如果你是服务器管理员，请输入命令/lchelpadmin。
+[271月2025 17:49:31.877] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] ---FCP命令帮助（管理员）---
+[271月2025 17:49:31.877] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 将某人扣除余额（/lcpunish <哪个玩家> <扣除多少钱>）
+[271月2025 17:49:31.878] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 增加某人的钱数（/lcadd <玩家> <钱数>）
+[271月2025 17:49:31.878] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 查看某人的钱数（/lcsee <玩家>）
+[271月2025 17:49:31.879] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] （权限等级4）设置某人的钱数（/lcset <玩家> <钱数>）
+[271月2025 17:49:31.879] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] （权限等级4）提示服务器所有人要关闭服务器了（/lcset <原因>）
+[271月2025 17:49:43.589] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 报告完成。
+[271月2025 17:49:44.589] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.591] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.592] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.592] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.592] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.597] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：测试。
+[271月2025 17:49:44.597] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：测试。
+[271月2025 17:50:00.700] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 未知或不完整的命令，错误见下
+[271月2025 17:50:00.701] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] serverstop<--[此处]
+[271月2025 17:50:05.398] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 报告完成。
+[271月2025 17:50:06.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.398] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.398] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.398] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.399] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.399] [Server thread/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器要关闭啦！原因：""。
+[271月2025 17:50:06.401] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 服务器要关闭啦！原因：""。
+[271月2025 17:50:09.790] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[271月2025 17:50:09.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[271月2025 17:50:10.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[271月2025 17:50:10.012] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[271月2025 17:50:15.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 未知或不完整的命令，错误见下
+[271月2025 17:50:15.967] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] serverstop<--[此处]
+[271月2025 17:50:17.889] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[271月2025 17:50:17.920] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[271月2025 17:50:17.929] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[271月2025 17:50:17.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[271月2025 17:52:27.291] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: 连接中断
+[271月2025 17:52:27.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev退出了游戏
+[271月2025 17:52:27.615] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[271月2025 17:52:27.712] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[271月2025 17:52:27.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[271月2025 17:52:27.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[271月2025 17:52:30.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:overworld
+[271月2025 17:52:31.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_nether
+[271月2025 17:52:31.413] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[新的世界]'/minecraft:the_end
+[271月2025 17:52:31.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (新的世界): All chunks are saved
+[271月2025 17:52:31.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[271月2025 17:52:31.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[271月2025 17:52:31.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[271月2025 17:53:09.424] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

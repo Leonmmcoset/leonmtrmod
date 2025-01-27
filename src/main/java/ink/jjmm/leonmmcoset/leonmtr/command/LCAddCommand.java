@@ -35,7 +35,7 @@ public class LCAddCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			LCAddRunProcedure.execute(arguments, entity);
+			LCAddRunProcedure.execute(world, arguments, entity);
 			return 0;
 		}))));
 	}

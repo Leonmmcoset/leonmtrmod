@@ -61,6 +61,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -97,6 +101,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -166,6 +174,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -202,6 +214,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -238,6 +254,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -270,6 +290,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -302,6 +326,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -404,7 +432,14 @@
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "name",
+      "type": "string",
+      "scope": "world",
+      "value": "FCP"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
@@ -420,7 +455,7 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "已开源，可更改。",
     "author": "LeonMMcoset",
     "websiteURL": "https://modrinth.com/mod/leonmtrmod",

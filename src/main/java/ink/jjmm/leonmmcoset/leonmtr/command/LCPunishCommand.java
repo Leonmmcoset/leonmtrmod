@@ -35,7 +35,7 @@ public class LCPunishCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			LCPunishRunProcedure.execute(arguments, entity);
+			LCPunishRunProcedure.execute(world, arguments, entity);
 			return 0;
 		}))));
 	}
