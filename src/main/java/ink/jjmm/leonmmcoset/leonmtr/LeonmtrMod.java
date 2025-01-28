@@ -39,6 +39,7 @@ import java.util.ArrayList;
 import java.util.AbstractMap;
 
 import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModTabs;
+import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModSounds;
 import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModItems;
 import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModBlocks;
 
@@ -50,7 +51,7 @@ public class LeonmtrMod {
 	public LeonmtrMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		LeonmtrModSounds.REGISTRY.register(bus);
 		LeonmtrModBlocks.REGISTRY.register(bus);
 
 		LeonmtrModItems.REGISTRY.register(bus);

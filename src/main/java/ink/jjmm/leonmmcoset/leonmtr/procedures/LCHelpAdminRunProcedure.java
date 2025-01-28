@@ -22,6 +22,8 @@ public class LCHelpAdminRunProcedure {
 		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal("\uFF08\u6743\u9650\u7B49\u7EA74\uFF09\u8BBE\u7F6E\u67D0\u4EBA\u7684\u94B1\u6570\uFF08/lcset <\u73A9\u5BB6> <\u94B1\u6570>\uFF09"), false);
 		if (entity instanceof Player _player && !_player.level().isClientSide())
-			_player.displayClientMessage(Component.literal("\uFF08\u6743\u9650\u7B49\u7EA74\uFF09\u63D0\u793A\u670D\u52A1\u5668\u6240\u6709\u4EBA\u8981\u5173\u95ED\u670D\u52A1\u5668\u4E86\uFF08/lcset <\u539F\u56E0>\uFF09"), false);
+			_player.displayClientMessage(Component.literal("\uFF08\u6743\u9650\u7B49\u7EA74\uFF09\u63D0\u793A\u670D\u52A1\u5668\u6240\u6709\u4EBA\u8981\u5173\u95ED\u670D\u52A1\u5668\u4E86\uFF08/serverstop <\u539F\u56E0>\uFF09"), false);
+		if (entity instanceof Player _player && !_player.level().isClientSide())
+			_player.displayClientMessage(Component.literal("\uFF08\u6743\u9650\u7B49\u7EA74\uFF09\u53D1\u9001\u670D\u52A1\u5668\u516C\u544A\uFF08/serversay <\u516C\u544A\u5185\u5BB9>\uFF09"), false);
 	}
 }

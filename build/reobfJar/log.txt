@@ -134,11 +134,11 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for ink/jjmm/leonmmcoset/leonmtr/network/LeonmtrModVariables$MapVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
 Conflicting propagated mapping for ink/jjmm/leonmmcoset/leonmtr/block/CxtSaidBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
 Conflicting propagated mapping for ink/jjmm/leonmmcoset/leonmtr/block/CxtSaidBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for ink/jjmm/leonmmcoset/leonmtr/block/CxtSaidBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for ink/jjmm/leonmmcoset/leonmtr/block/CxtSaidBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for ink/jjmm/leonmmcoset/leonmtr/network/LeonmtrModVariables$MapVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
 Conflicting propagated mapping for ink/jjmm/leonmmcoset/leonmtr/network/LeonmtrModVariables$WorldVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/server/level/ServerPlayer/isInvulnerableTo(Lnet/minecraft/world/damagesource/DamageSource;)Z: isInvulnerableTo -> m_6673_
@@ -166,6 +166,10 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   assets/leonmtr/models/block/cxt_said.json
   assets/leonmtr/models/item/
   assets/leonmtr/models/item/cxt_said.json
+  assets/leonmtr/sounds.json
+  assets/leonmtr/sounds/
+  assets/leonmtr/sounds/ah5ru-woaa4.ogg
+  assets/leonmtr/sounds/bz76t-399rk.ogg
   assets/leonmtr/textures/
   assets/leonmtr/textures/block/
   assets/leonmtr/textures/block/cxt.png
@@ -187,10 +191,12 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   ink/jjmm/leonmmcoset/leonmtr/command/LCSeeCommand.class
   ink/jjmm/leonmmcoset/leonmtr/command/LCSetCommand.class
   ink/jjmm/leonmmcoset/leonmtr/command/LCSetPlayerCommand.class
+  ink/jjmm/leonmmcoset/leonmtr/command/ServerSayCommand.class
   ink/jjmm/leonmmcoset/leonmtr/command/ServerStopCommand.class
   ink/jjmm/leonmmcoset/leonmtr/init/
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModBlocks.class
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModItems.class
+  ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModSounds.class
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModTabs.class
   ink/jjmm/leonmmcoset/leonmtr/network/
   ink/jjmm/leonmmcoset/leonmtr/network/LeonmtrModVariables$EventBusVariableHandlers.class
@@ -238,6 +244,8 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun2Procedure.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/ModStartServerProcedure.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/ServerSayRunProcedure$1.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/ServerSayRunProcedure.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/ServerStopRunProcedure$1.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/ServerStopRunProcedure$2.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/ServerStopRunProcedure$3.class

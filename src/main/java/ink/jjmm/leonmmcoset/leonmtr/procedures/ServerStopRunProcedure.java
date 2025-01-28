@@ -23,39 +23,29 @@ import com.mojang.brigadier.context.CommandContext;
 public class ServerStopRunProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, CommandContext<CommandSourceStack> arguments) {
 		for (int index0 = 0; index0 < 3; index0++) {
-			LeonmtrMod.queueServerWork(20, () -> {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.land")), SoundSource.VOICE, 5, 1);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.anvil.land")), SoundSource.VOICE, 5, 1, false);
-					}
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("leonmtr:alarm")), SoundSource.VOICE, 5, 1);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("leonmtr:alarm")), SoundSource.VOICE, 5, 1, false);
 				}
-				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-							"title @a title \u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\uFF01\uFF01\"");
-				if (world instanceof ServerLevel _level)
-					_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
-							("title @a subtitle \"\u539F\u56E0\uFF1A" + "" + (new Object() {
-								public String getMessage() {
-									try {
-										return MessageArgument.getMessage(arguments, "reason").getString();
-									} catch (CommandSyntaxException ignored) {
-										return "";
-									}
+			}
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"title @a title \u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\uFF01\uFF01\"");
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						("title @a subtitle \"\u539F\u56E0\uFF1A" + "" + (new Object() {
+							public String getMessage() {
+								try {
+									return MessageArgument.getMessage(arguments, "reason").getString();
+								} catch (CommandSyntaxException ignored) {
+									return "";
 								}
-							}).getMessage() + "\""));
-				if (!world.isClientSide() && world.getServer() != null)
-					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("\u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\u539F\u56E0\uFF1A" + (new Object() {
-						public String getMessage() {
-							try {
-								return MessageArgument.getMessage(arguments, "reason").getString();
-							} catch (CommandSyntaxException ignored) {
-								return "";
 							}
-						}
-					}).getMessage() + "\u3002")), false);
-				LeonmtrMod.LOGGER.info(("\u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\u539F\u56E0\uFF1A" + (new Object() {
+						}).getMessage() + "\""));
+			if (!world.isClientSide() && world.getServer() != null)
+				world.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("\u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\u539F\u56E0\uFF1A" + (new Object() {
 					public String getMessage() {
 						try {
 							return MessageArgument.getMessage(arguments, "reason").getString();
@@ -63,8 +53,16 @@ public class ServerStopRunProcedure {
 							return "";
 						}
 					}
-				}).getMessage() + "\u3002"));
-			});
+				}).getMessage() + "\u3002")), false);
+			LeonmtrMod.LOGGER.info(("\u670D\u52A1\u5668\u8981\u5173\u95ED\u5566\uFF01\u539F\u56E0\uFF1A" + (new Object() {
+				public String getMessage() {
+					try {
+						return MessageArgument.getMessage(arguments, "reason").getString();
+					} catch (CommandSyntaxException ignored) {
+						return "";
+					}
+				}
+			}).getMessage() + "\u3002"));
 		}
 		LeonmtrMod.LOGGER.info("\u62A5\u544A\u5B8C\u6210\u3002");
 	}

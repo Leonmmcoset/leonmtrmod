@@ -53,7 +53,8 @@ public class LeonmtrModVariables {
 
 	public static class WorldVariables extends SavedData {
 		public static final String DATA_NAME = "leonmtr_worldvars";
-		public String name = "FCP";
+		public String name = "L\u5E01";
+		public String servername = "Leon\u8F68\u9053\u4EA4\u901A";
 
 		public static WorldVariables load(CompoundTag tag) {
 			WorldVariables data = new WorldVariables();
@@ -63,11 +64,13 @@ public class LeonmtrModVariables {
 
 		public void read(CompoundTag nbt) {
 			name = nbt.getString("name");
+			servername = nbt.getString("servername");
 		}
 
 		@Override
 		public CompoundTag save(CompoundTag nbt) {
 			nbt.putString("name", name);
+			nbt.putString("servername", servername);
 			return nbt;
 		}
 

@@ -1,0 +1,20 @@
+{
+  "alarm": {
+    "subtitle": "subtitles.alarm",
+    "sounds": [
+      {
+        "name": "leonmtr:bz76t-399rk",
+        "stream": false
+      }
+    ]
+  },
+  "notice": {
+    "subtitle": "subtitles.notice",
+    "sounds": [
+      {
+        "name": "leonmtr:ah5ru-woaa4",
+        "stream": false
+      }
+    ]
+  }
+}

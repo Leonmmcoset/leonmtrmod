@@ -1,5 +1,7 @@
 {
+  "subtitles.notice": "提示",
   "block.leonmtr.cxt_said": "CXT名言大赏",
   "subtitles.cxtvoice": "CXTVoice",
-  "item_group.leonmtr.tab": "Leon轨道交通方块和物品"
+  "item_group.leonmtr.tab": "Leon轨道交通方块和物品",
+  "subtitles.alarm": "警告"
 }

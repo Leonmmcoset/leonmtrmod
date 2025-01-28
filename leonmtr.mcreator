@@ -430,6 +430,54 @@
           "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/ServerStopCommand.java"
         ]
       }
+    },
+    {
+      "name": "ServerSayRun",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_say_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ServerSayRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ServerSay",
+      "type": "command",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_say",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/ServerSayCommand.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -437,15 +485,40 @@
       "name": "name",
       "type": "string",
       "scope": "world",
-      "value": "FCP"
+      "value": "L币"
+    },
+    {
+      "name": "servername",
+      "type": "string",
+      "scope": "world",
+      "value": "Leon轨道交通"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "alarm",
+      "files": [
+        "bz76t-399rk"
+      ],
+      "category": "voice",
+      "subtitle": "警告"
+    },
+    {
+      "name": "notice",
+      "files": [
+        "ah5ru-woaa4"
+      ],
+      "category": "voice",
+      "subtitle": "提示"
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.notice": "提示",
       "block.leonmtr.cxt_said": "CXT名言大赏",
       "subtitles.cxtvoice": "CXTVoice",
-      "item_group.leonmtr.tab": "Leon轨道交通方块和物品"
+      "item_group.leonmtr.tab": "Leon轨道交通方块和物品",
+      "subtitles.alarm": "警告"
     }
   },
   "foldersRoot": {
@@ -455,7 +528,7 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "已开源，可更改。",
     "author": "LeonMMcoset",
     "websiteURL": "https://modrinth.com/mod/leonmtrmod",
