@@ -175,6 +175,16 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   assets/leonmtr/textures/block/cxt.png
   assets/leonmtr/textures/item/
   assets/leonmtr/textures/item/cxtvoice.png
+  assets/leonmtr/textures/painting/
+  assets/leonmtr/textures/painting/server_map_1.png
+  assets/leonmtr/textures/painting/server_map_b_1.png
+  assets/leonmtr/textures/ping_mu_jie_tu__2025-01-28_205948.png
+  assets/leonmtr/textures/ping_mu_jie_tu__2025-01-28_210821.png
+  data/
+  data/minecraft/
+  data/minecraft/tags/
+  data/minecraft/tags/painting_variant/
+  data/minecraft/tags/painting_variant/placeable.json
   ink/
   ink/jjmm/
   ink/jjmm/leonmmcoset/
@@ -196,6 +206,7 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   ink/jjmm/leonmmcoset/leonmtr/init/
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModBlocks.class
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModItems.class
+  ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModPaintings.class
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModSounds.class
   ink/jjmm/leonmmcoset/leonmtr/init/LeonmtrModTabs.class
   ink/jjmm/leonmmcoset/leonmtr/network/
@@ -241,6 +252,7 @@ Writing Output: C:\Users\leonm\MCreatorWorkspaces\leonmtr\build\reobfJar\output.
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure$6.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure$7.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure$8.class
+  ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure$9.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun2Procedure.class
   ink/jjmm/leonmmcoset/leonmtr/procedures/ModStartServerProcedure.class

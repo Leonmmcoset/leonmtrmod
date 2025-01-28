@@ -448,6 +448,18 @@
             "type": "cmdcontext"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -455,19 +467,27 @@
       }
     },
     {
-      "name": "ModConfig",
-      "type": "config",
+      "name": "ServerSay",
+      "type": "command",
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "mod_config",
+      "registry_name": "server_say",
       "metadata": {
         "files": [
-          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/config/LeonmtrModConfigInit.java",
-          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/config/LeonmtrModConfig.java",
-          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/config/serializer/ConfigSerializer.java",
-          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/config/serializer/GsonSerializer.java"
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/ServerSayCommand.java"
         ]
+      }
+    },
+    {
+      "name": "ServerMap1",
+      "type": "painting",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_map_1",
+      "metadata": {
+        "files": []
       }
     }
   ],
@@ -480,17 +500,38 @@
     },
     {
       "name": "servername",
-      "type": "config string entry",
+      "type": "string",
       "scope": "world",
-      "value": "null"
+      "value": "Leon轨道交通"
     }
   ],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "alarm",
+      "files": [
+        "bz76t-399rk"
+      ],
+      "category": "voice",
+      "subtitle": "警告"
+    },
+    {
+      "name": "notice",
+      "files": [
+        "ah5ru-woaa4"
+      ],
+      "category": "voice",
+      "subtitle": "提示"
+    }
+  ],
   "language_map": {
     "en_us": {
+      "subtitles.notice": "提示",
       "block.leonmtr.cxt_said": "CXT名言大赏",
       "subtitles.cxtvoice": "CXTVoice",
-      "item_group.leonmtr.tab": "Leon轨道交通方块和物品"
+      "painting.leonmtr.server_map_1.author": "LeonMMcoset",
+      "item_group.leonmtr.tab": "Leon轨道交通方块和物品",
+      "subtitles.alarm": "警告",
+      "painting.leonmtr.server_map_1.title": "Leon轨道交通服务器2025/01/28主世界地图"
     }
   },
   "foldersRoot": {
@@ -500,7 +541,7 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "已开源，可更改。",
     "author": "LeonMMcoset",
     "websiteURL": "https://modrinth.com/mod/leonmtrmod",
@@ -510,9 +551,7 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "cloth_config"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.20.1",
     "credits": "感谢永盛服主林枫酱和云山服主Spentwing！",
     "modElementsPackage": "ink.jjmm.leonmmcoset.leonmtr",

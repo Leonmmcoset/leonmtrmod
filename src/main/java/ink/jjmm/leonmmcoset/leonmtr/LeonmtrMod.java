@@ -40,6 +40,7 @@ import java.util.AbstractMap;
 
 import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModTabs;
 import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModSounds;
+import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModPaintings;
 import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModItems;
 import ink.jjmm.leonmmcoset.leonmtr.init.LeonmtrModBlocks;
 
@@ -57,6 +58,8 @@ public class LeonmtrMod {
 		LeonmtrModItems.REGISTRY.register(bus);
 
 		LeonmtrModTabs.REGISTRY.register(bus);
+
+		LeonmtrModPaintings.REGISTRY.register(bus);
 
 	}
 
