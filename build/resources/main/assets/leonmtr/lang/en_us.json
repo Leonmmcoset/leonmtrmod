@@ -1,11 +1,15 @@
 {
-  "subtitles.notice": "提示",
-  "painting.leonmtr.server_map_b_1.title": "Leon轨道交通服务器2025/01/28末地地图",
+  "gui.leonmtr.l_gui.label_empty": "-------------------------------",
   "block.leonmtr.cxt_said": "CXT名言大赏",
-  "subtitles.cxtvoice": "CXTVoice",
-  "painting.leonmtr.server_map_1.author": "LeonMMcoset",
+  "gui.leonmtr.l_gui.label_fast_command_menu": "Fast Command Menu",
   "item_group.leonmtr.tab": "Leon轨道交通方块和物品",
   "subtitles.alarm": "警告",
   "painting.leonmtr.server_map_b_1.author": "LeonMMcoset",
-  "painting.leonmtr.server_map_1.title": "Leon轨道交通服务器2025/01/28主世界地图"
+  "painting.leonmtr.server_map_1.title": "Leon轨道交通服务器（一周目）2025/01/28主世界地图",
+  "gui.leonmtr.l_gui.button_give_me_night_version": "Give me night version",
+  "subtitles.notice": "提示",
+  "painting.leonmtr.server_map_b_1.title": "Leon轨道交通服务器（一周目）2025/01/28末地地图",
+  "gui.leonmtr.l_gui.button_exit": "Exit",
+  "subtitles.cxtvoice": "CXTVoice",
+  "painting.leonmtr.server_map_1.author": "LeonMMcoset"
 }

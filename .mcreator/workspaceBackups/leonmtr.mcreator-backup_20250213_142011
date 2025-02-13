@@ -1,0 +1,679 @@
+{
+  "mod_elements": [
+    {
+      "name": "CxtSaidYouJiFangKuaiShi",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cxt_said_you_ji_fang_kuai_shi",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/CxtSaidYouJiFangKuaiShiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CxtSaid",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cxt_said",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/block/CxtSaidBlock.java",
+          "src/main/resources/assets/leonmtr/models/item/cxt_said.json",
+          "src/main/resources/assets/leonmtr/blockstates/cxt_said.json",
+          "src/main/resources/assets/leonmtr/models/block/cxt_said.json"
+        ]
+      }
+    },
+    {
+      "name": "Tab",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LCGetRun",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_get_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCGetRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCGet",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_get",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCGetCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCSetRun1",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_set_run_1",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCSet",
+      "type": "command",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_set",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCSetCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCSetRun2",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_set_run_2",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetRun2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ModStartServer",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_start_server",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ModStartServerProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LCPunishRun",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_punish_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCPunishRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCPunish",
+      "type": "command",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_punish",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCPunishCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCAddRun",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_add_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCAddRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCAdd",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_add",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCAddCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCSeeRun",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_see_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSeeRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCSee",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_see",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCSeeCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCHelpRun",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_help_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCHelpRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCHelp",
+      "type": "command",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_help",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCHelpCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCHelpAdminRun",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_help_admin_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCHelpAdminRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCHelpAdmin",
+      "type": "command",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_help_admin",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCHelpAdminCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "LCSetPlayerRun",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_set_player_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LCSetPlayerRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LCSetPlayer",
+      "type": "command",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lc_set_player",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LCSetPlayerCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ServerStopRun",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_stop_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ServerStopRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ServerStop",
+      "type": "command",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_stop",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/ServerStopCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ServerSayRun",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_say_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ServerSayRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ServerSay",
+      "type": "command",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_say",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/ServerSayCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ServerMap1",
+      "type": "painting",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_map_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ServerMapB1",
+      "type": "painting",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "server_map_b_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "NightV",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_v",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/NightVProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExitGUI",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ExitGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LGui",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/network/LGuiButtonMessage.java",
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/world/inventory/LGuiMenu.java",
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/client/gui/LGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "LGuiOpenRun",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_gui_open_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LGuiOpenRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LGuiOpenCommand",
+      "type": "command",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_gui_open_command",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LGuiOpenCommandCommand.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "name",
+      "type": "string",
+      "scope": "world",
+      "value": "钱币"
+    },
+    {
+      "name": "servername",
+      "type": "string",
+      "scope": "world",
+      "value": "Leon轨道交通"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "alarm",
+      "files": [
+        "bz76t-399rk"
+      ],
+      "category": "voice",
+      "subtitle": "警告"
+    },
+    {
+      "name": "notice",
+      "files": [
+        "ah5ru-woaa4"
+      ],
+      "category": "voice",
+      "subtitle": "提示"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "gui.leonmtr.l_gui.label_empty": "-------------------------------",
+      "block.leonmtr.cxt_said": "CXT名言大赏",
+      "gui.leonmtr.l_gui.label_fast_command_menu": "Fast Command Menu",
+      "item_group.leonmtr.tab": "Leon轨道交通方块和物品",
+      "subtitles.alarm": "警告",
+      "painting.leonmtr.server_map_b_1.author": "LeonMMcoset",
+      "painting.leonmtr.server_map_1.title": "Leon轨道交通服务器（一周目）2025/01/28主世界地图",
+      "gui.leonmtr.l_gui.button_give_me_night_version": "Give me night version",
+      "subtitles.notice": "提示",
+      "painting.leonmtr.server_map_b_1.title": "Leon轨道交通服务器（一周目）2025/01/28末地地图",
+      "gui.leonmtr.l_gui.button_exit": "Exit",
+      "subtitles.cxtvoice": "CXTVoice",
+      "painting.leonmtr.server_map_1.author": "LeonMMcoset"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "leonmtr",
+    "modName": "Leon轨道交通Mod",
+    "version": "1.0.9",
+    "description": "已开源，可更改。",
+    "author": "LeonMMcoset",
+    "websiteURL": "https://modrinth.com/mod/leonmtrmod",
+    "license": "MIT License",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "感谢永盛服主林枫酱和云山服主Spentwing！",
+    "modElementsPackage": "ink.jjmm.leonmmcoset.leonmtr",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

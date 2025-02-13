@@ -500,6 +500,107 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "NightV",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_v",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/NightVProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ExitGUI",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exit_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/ExitGUIProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LGui",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/network/LGuiButtonMessage.java",
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/world/inventory/LGuiMenu.java",
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/client/gui/LGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "LGuiOpenRun",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_gui_open_run",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/procedures/LGuiOpenRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LGuiOpenCommand",
+      "type": "command",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l_gui_open_command",
+      "metadata": {
+        "files": [
+          "src/main/java/ink/jjmm/leonmmcoset/leonmtr/command/LGuiOpenCommandCommand.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -507,7 +608,7 @@
       "name": "name",
       "type": "string",
       "scope": "world",
-      "value": "L币"
+      "value": "钱币"
     },
     {
       "name": "servername",
@@ -536,15 +637,19 @@
   ],
   "language_map": {
     "en_us": {
-      "subtitles.notice": "提示",
-      "painting.leonmtr.server_map_b_1.title": "Leon轨道交通服务器2025/01/28末地地图",
+      "gui.leonmtr.l_gui.label_empty": "-------------------------------",
       "block.leonmtr.cxt_said": "CXT名言大赏",
-      "subtitles.cxtvoice": "CXTVoice",
-      "painting.leonmtr.server_map_1.author": "LeonMMcoset",
+      "gui.leonmtr.l_gui.label_fast_command_menu": "Fast Command Menu",
       "item_group.leonmtr.tab": "Leon轨道交通方块和物品",
       "subtitles.alarm": "警告",
       "painting.leonmtr.server_map_b_1.author": "LeonMMcoset",
-      "painting.leonmtr.server_map_1.title": "Leon轨道交通服务器2025/01/28主世界地图"
+      "painting.leonmtr.server_map_1.title": "Leon轨道交通服务器（一周目）2025/01/28主世界地图",
+      "gui.leonmtr.l_gui.button_give_me_night_version": "Give me night version",
+      "subtitles.notice": "提示",
+      "painting.leonmtr.server_map_b_1.title": "Leon轨道交通服务器（一周目）2025/01/28末地地图",
+      "gui.leonmtr.l_gui.button_exit": "Exit",
+      "subtitles.cxtvoice": "CXTVoice",
+      "painting.leonmtr.server_map_1.author": "LeonMMcoset"
     }
   },
   "foldersRoot": {
@@ -554,7 +659,7 @@
   "workspaceSettings": {
     "modid": "leonmtr",
     "modName": "Leon轨道交通Mod",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "已开源，可更改。",
     "author": "LeonMMcoset",
     "websiteURL": "https://modrinth.com/mod/leonmtrmod",
