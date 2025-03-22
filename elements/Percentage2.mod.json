@@ -1,0 +1,137 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 175,
+    "height": 180,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 6,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "100",
+          "name": "percentage",
+          "width": 27,
+          "height": 20,
+          "x": 209,
+          "y": 66,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_zhan_bi_bai_fen_bi",
+          "text": {
+            "fixedValue": "占比百分比"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 186,
+          "y": 47,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_empty",
+          "text": {
+            "fixedValue": "%"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 242,
+          "y": 70,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_ji_xu",
+          "text": "继续",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Setpercentagejjixv2"
+          },
+          "width": 54,
+          "height": 20,
+          "x": 133,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_wan_cheng",
+          "text": "完成",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Setpercentagewancheng2"
+          },
+          "width": 65,
+          "height": 20,
+          "x": 195,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_qing_chu",
+          "text": "清除",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Setpercentageclean"
+          },
+          "width": 25,
+          "height": 20,
+          "x": 267,
+          "y": 96,
+          "locked": false
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "color": {
+            "value": -10092442,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 182,
+          "y": 67,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

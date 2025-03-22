@@ -1,0 +1,86 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_fast_command_menu",
+          "text": {
+            "fixedValue": "快速指令设置"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 188,
+          "y": 52,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_give_me_night_version",
+          "text": "夜视效果",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NightV"
+          },
+          "width": 134,
+          "height": 20,
+          "x": 146,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_exit",
+          "text": "退出",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ExitGUI"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 191,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_qing_chu_diao_luo_wu",
+          "text": "清除掉落物",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Killitem"
+          },
+          "width": 134,
+          "height": 20,
+          "x": 146,
+          "y": 119,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

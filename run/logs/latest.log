@@ -1,0 +1,80 @@
+[22Mar2025 12:42:32.301] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserveruserdev, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[22Mar2025 12:42:32.311] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[22Mar2025 12:42:32.509] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\leonm\MCreatorWorkspaces\leonmtr\run\config\fml.toml is not correct. Correcting
+[22Mar2025 12:42:32.510] [main/INFO] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [earlyWindowShowCPU] was corrected from null to false
+[22Mar2025 12:42:32.531] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserveruserdev
+[22Mar2025 12:42:32.587] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/leonm/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=SERVER
+[22Mar2025 12:42:32.968] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.3.0\d7ebc62120f202109e300e084ca1a31a7b946a62\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Mar2025 12:42:32.973] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.3.0\1bf3e845ea0ce750096da8c71c8364b188ab74d4\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Mar2025 12:42:32.976] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.3.0\6093682e943ddccbabf70539319d7f2fe64db2e7\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[22Mar2025 12:42:32.979] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\leonm\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.3.0\3b6be96aba3e323f3c918e8ef6a96312d82d76ad\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[22Mar2025 12:42:33.082] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Mar2025 12:42:35.002] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserveruserdev' with arguments [--gameDir, .]
+[22Mar2025 12:42:36.445] [main/WARN] [oshi.driver.windows.perfmon.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[22Mar2025 12:42:42.857] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[22Mar2025 12:42:42.861] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[22Mar2025 12:42:43.789] [modloading-worker-0/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: ---Leon轨道交通Mod---
+[22Mar2025 12:42:43.793] [modloading-worker-0/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 作者：LeonMMcoset
+[22Mar2025 12:42:43.794] [modloading-worker-0/WARN] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: 服务器没有加载MTR Mod，大多数功能将无法使用！
+[22Mar2025 12:42:43.794] [modloading-worker-0/INFO] [ink.jjmm.leonmmcoset.leonmtr.LeonmtrMod/]: Leon轨道交通Mod加载成功！
+[22Mar2025 12:42:44.318] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Mar2025 12:42:45.302] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Mar2025 12:42:45.407] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+forge (version 47.2.0 -> 47.3.0)
+leonmtr (version 1.0.8 -> 1.1.3)
+Things may not work well.
+[22Mar2025 12:42:45.427] [main/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[22Mar2025 12:42:45.681] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
+[22Mar2025 12:42:46.026] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22Mar2025 12:42:46.028] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22Mar2025 12:42:48.919] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[22Mar2025 12:42:49.011] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[22Mar2025 12:42:50.372] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[22Mar2025 12:42:50.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Mar2025 12:42:50.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: CREATIVE
+[22Mar2025 12:42:50.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Mar2025 12:42:50.435] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25463
+[22Mar2025 12:42:50.474] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[22Mar2025 12:42:50.795] [Server thread/WARN] [net.minecraft.server.dedicated.Dedicat[22Mar2025 12:42:52.831] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 375 milliseconds
+[22Mar2025 12:42:55.356] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[22Mar2025 12:42:55.357] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/leonm/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[22Mar2025 12:42:55.409] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Mar2025 12:42:55.422] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22Mar2025 12:42:55.766] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[22Mar2025 12:42:56.142] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[22Mar2025 12:42:56.144] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[22Mar2025 12:42:57.683] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[22Mar2025 12:42:57.999] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[22Mar2025 12:42:58.243] [Worker-Main-8/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[22Mar2025 12:42:58.290] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Mar2025 12:42:58.493] [Worker-Main-5/WARN] [net.minecraft.client.renderer.texture.Spr[22Mar2025 12:43:57.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[22Mar2025 12:43:57.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ?<--[HERE]
+[22Mar2025 12:44:08.700] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[/[2408:8207:c71:34d0:5dc3:2f6e:fef1:9805]:39188] logged in with entity id 268 at (-15.92107935373585, 68.0, 21.735189132190836)
+[22Mar2025 12:44:08.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22Mar2025 12:44:26.443] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Deev a server operator
+[22Mar2025 12:44:36.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Dev a server operator
+[22Mar2025 12:45:16.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to -50.858947, 69.868599, 13.161681]
+[22Mar2025 12:45:27.095] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[22Mar2025 12:45:27.096] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22Mar2025 12:45:30.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Mar2025 12:45:30.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Mar2025 12:45:30.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Mar2025 12:45:30.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Mar2025 12:45:30.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22Mar2025 12:45:30.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/leonmtr:joinworld
+[22Mar2025 12:45:30.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22Mar2025 12:45:30.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22Mar2025 12:45:30.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22Mar2025 12:45:30.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (joinworld): All chunks are saved
+[22Mar2025 12:45:30.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22Mar2025 12:45:30.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+eated: 4096x4096x0 minecraft:textures/atlas/paintings.png-atlas
+[22Mar2025 12:43:02.094] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22Mar2025 12:43:02.785] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[22Mar2025 12:44:07.063] [Render thread/INFO] [net.minecraft.client.gui.screens.ConnectScreen/]: Connecting to 2408:8207:c71:34d0:5dc3:2f6e:fef1:9805, 25463
+[22Mar2025 12:44:08.153] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[22Mar2025 12:44:08.649] [Netty Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[22Mar2025 12:44:09.866] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[22Mar2025 12:44:36.888] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] [Server: 已将Dev设为服务器管理员]
+[22Mar2025 12:45:16.826] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] 已将Dev传送至-50.858947, 69.868599, 13.161681
+[22Mar2025 12:45:28.574] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

@@ -1,0 +1,38 @@
+{
+  "alarm": {
+    "subtitle": "subtitles.alarm",
+    "sounds": [
+      {
+        "name": "leonmtr:bz76t-399rk",
+        "stream": false
+      }
+    ]
+  },
+  "notice": {
+    "subtitle": "subtitles.notice",
+    "sounds": [
+      {
+        "name": "leonmtr:ah5ru-woaa4",
+        "stream": false
+      }
+    ]
+  },
+  "bloody_mary_x_dom_dom": {
+    "subtitle": "subtitles.bloody_mary_x_dom_dom",
+    "sounds": [
+      {
+        "name": "leonmtr:bloody_mary_x_dom_dom-speedscape2vvup1",
+        "stream": true
+      }
+    ]
+  },
+  "roundabout": {
+    "subtitle": "subtitles.roundabout",
+    "sounds": [
+      {
+        "name": "leonmtr:roundabout-yesf8o46",
+        "stream": true
+      }
+    ]
+  }
+}

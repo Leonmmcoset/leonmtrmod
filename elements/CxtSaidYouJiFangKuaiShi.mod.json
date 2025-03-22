@@ -1,0 +1,7 @@
+{
+  "_fv": 73,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"404\" y=\"138\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_send_chat\"><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">CXT名言大赏：</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value><next><block type=\"entity_send_chat\"><comment h=\"80\" pinned=\"true\" w=\"160\">往后就是CXT的名言了</comment><value name=\"text\"><block type=\"text\"><field name=\"TEXT\">我讨厌北京地铁公司，支持京港地铁公司</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"actbar\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></next></block></next></block></xml>"
+  }
+}

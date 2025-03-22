@@ -1,0 +1,10 @@
+{
+  "_fv": 73,
+  "_type": "command",
+  "definition": {
+    "commandName": "lgui",
+    "type": "STANDARD",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"388\" y=\"181\"><next><block type=\"call_procedure\"><field name=\"procedure\">LGuiOpenRun</field></block></next></block></xml>"
+  }
+}

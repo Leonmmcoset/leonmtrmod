@@ -1,0 +1,10 @@
+{
+  "_fv": 73,
+  "_type": "command",
+  "definition": {
+    "commandName": "server",
+    "type": "STANDARD",
+    "permissionLevel": "4",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"360\" y=\"32\"><next><block type=\"literal\"><field name=\"name\">say</field><statement name=\"args\"><block type=\"message\"><field name=\"name\">content</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ServerSayRun</field></block></statement></block></statement><next><block type=\"literal\"><field name=\"name\">stopsay</field><statement name=\"args\"><block type=\"message\"><field name=\"name\">reason</field><statement name=\"args\"><block type=\"call_procedure\"><field name=\"procedure\">ServerStopRun</field></block></statement></block></statement></block></next></block></next></block></xml>"
+  }
+}
